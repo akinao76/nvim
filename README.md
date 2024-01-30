@@ -1,5 +1,4 @@
 # Neo Vim config
----
 
 ### dependency packages
 - neovim

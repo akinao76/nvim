@@ -6,6 +6,7 @@
 - clang (in clang users)
 - yarn
 - nodejs (>= 16.18.0)
+- npm
 
 
 ### How to config
@@ -16,7 +17,7 @@
 // example in archlinux
 
 // install packages
-sudo pacman -S neovim clang yarn
+sudo pacman -S neovim clang yarn nodejs npm
 
 // install vim-plug
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
